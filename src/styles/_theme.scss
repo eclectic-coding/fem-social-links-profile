@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Inter Bold";
+  src: url('src/assets/fonts/static/Inter-Bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: "Inter Regular";
+  src: url('src/assets/fonts/static/Inter-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: "Inter SemiBold";
+  src: url('src/assets/fonts/static/Inter-SemiBold.ttf') format('truetype')
+}
+
+// color palette
+:root {
+  --color-green: hsl(75, 94%, 57%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey-700: hsl(0, 0%, 20%);
+  --color-grey-800: hsl(0, 0%, 12%);
+  --color-grey-900: hsl(0, 0%, 8%);
+}
+
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+
+  --color-background: var(--color-grey-900);
+  --color-text: var(--color-white);
+  --text--size-title: 24px;
+  --text--size-paragraph: 14px;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-size: var(--text--size-paragraph, 14px);
+
+  display: grid;
+
+  grid-template-areas:
+    "content"
+    "footer";
+  grid-template-rows: 1fr 30px;
+
+  height: 100vh;
+
+  main {
+    grid-area: content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 768px) {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    @media (min-width: 375px){
+      width: 100%;
+      height: 812px;
+    }
+
+  }
+}
