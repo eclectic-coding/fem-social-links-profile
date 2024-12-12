@@ -69,6 +69,11 @@
     padding: 12px;
     background-color: var(--color-grey-700);
     border-radius: 8px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: var(--color-grey-600);
+    }
   }
 }
 
