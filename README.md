@@ -1,127 +1,110 @@
-# Vite Vanilla JS Template
+# Frontend Mentor - Social links profile solution
 
-Initially built for personal use, I created this template for starting a new project with Vite.js and Vanilla Javascript. It is already set up with standard development tools like ESLint and Prettier for easy code formatting and linting, with Vite for a robust, modern build process.
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Dependencies
+## Table of contents
 
-This template uses the following dependencies:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-- **[Vite](https://vitejs.dev/):** A next-generation frontend build tool that offers a fast dev server and optimized builds.
-- **[ESLint](https://eslint.org/):** An open-source JavaScript linting utility that helps maintain a consistent code style.
-- **[Prettier](https://prettier.io/):** An opinionated code formatter that enforces a consistent style across your project.
-- **[eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base) and [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier):** ESLint configurations adhering to Airbnb's base JS style guide and disabling stylistic rules that might conflict with Prettier.
-- **[eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) and [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier):** ESLint plugins that enforce ES2015+ import/export syntax and integrate Prettier with ESLint.
-- **[autoprefixer](https://www.npmjs.com/package/autoprefixer) and [postcss](https://postcss.org/):** Autoprefixer automatically adds vendor prefixes to CSS, while PostCSS provides a way to transform CSS with JavaScript.
-- **[cssnano](https://cssnano.github.io/cssnano/):** A tool that helps to compress and optimize CSS files.
-- **[postcss-nesting](https://www.npmjs.com/package/postcss-nesting):** A PostCSS plugin that allows you to use modern CSS Nesting in your stylesheets.
-- **[vite-plugin-eslint](https://www.npmjs.com/package/vite-plugin-eslint):** Integrates ESLint into the Vite build process for on-the-fly linting.
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Cloning
+## Overview
 
-1. To start using this template, clone the repository with this command:
+### The challenge
 
-```bash
-git clone https://github.com/eclectic-coding/vite-vanilla-js-template.git
+Users should be able to:
+
+- See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+![](./screenshot.jpg)
+
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
+
+**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
+### What I learned
+
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+To see how you can add code snippets, see below:
+
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
 ```
 
-2. Then proceed to the folder and install dependencies:
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-```bash
-cd vite-vanilla-js-template
-npm install
-```
+**Note: Delete this note and the content within this section and replace with your own learnings.**
 
-**or**
+### Continued development
 
-```bash
-npm install -g degit # if you don't have degit installed...
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-#degit documentation at: https://github.com/Rich-Harris/degit
-```
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
-1. Use 'degit' to create a folder project using this template:
+### Useful resources
 
-```bash
-degit Barata-Ribeiro/vite-vanilla-js-template your-project-name
-```
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
-2. Then proceed to the folder and install dependencies:
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
-```bash
-cd your-project-name
-npm install
-```
+## Author
 
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-## Post-Cloning Steps
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-After cloning the template, make sure to clean up and update the following:
+## Acknowledgments
 
-1. Remove the .git directory and run `git init` to clean the commit history.
-2. Clean up the README.md file.
-3. Adapt the LICENSE file to your project.
-4. Edit your styles from `src/styles/main.scss`.
-5. Adapt the `package.json` file with your project's own information.
-6. Delete the .github folder.
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-## Scripts
-
-Use the following scripts for your development workflow:
-
-```bash
-# Start the development server
-npm run dev
-
-# Checks your code for any linting errors
-npm run lint
-
-# Tries to automatically fix any linting errors present in your code
-npm run lint:fix
-
-# Formats your code in a consistent, predefined style using Prettier
-npm run format
-
-# Build for production
-npm run build
-
-# Preview the build
-npm run preview
-
-# Build and preview the project
-npm run buildpreview
-```
-
-## Folder Structure
-
-This is the structure of the project:
-
-```plaintext
-/
-├── .github                 # Github actions and workflows
-├── node_modules            # Node.js dependencies for the project.
-├── public                  # Public assets and resources
-├── src                     # Source code
-│   ├── assets              # General assets for your project
-│   │   ├── images          # Store your images here
-│   ├── js                  # Javascript files of your project
-│   ├── styles              # CSS styles for your project
-├── .editorconfig           # Configuration for the EditorConfig plugin
-├── .eslintignore           # Files to be ignored by ESLint
-├── .eslintrc.json          # Configuration for ESLint
-├── .gitignore              # Files and folders to be ignored by Git
-├── .prettierignore         # Files to be ignored by Prettier
-├── .prettierrc             # Configuration for Prettier
-├── index.html              # The HTML file for your project
-├── LICENSE                 # The license for your project
-├── package-lock.json       # Lockfile for your project's dependencies
-├── package.json            # Defines your project and its dependencies
-├── postcss.config.cjs      # Configuration for PostCSS
-├── README.md               # This file
-├── vite.config.js          # Configuration for Vite
-```
-
-## License
-
-This template was created under the [MIT License](LICENSE.md).
-
-**Happy coding!** 👨‍💻
+**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
